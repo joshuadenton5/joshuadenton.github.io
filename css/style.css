@@ -10,6 +10,7 @@ body{
 	width:80%;
 	margin:auto;
 	overflow: hidden;
+    background-color: grey;
 }
 #main-header{
 	background-color: rgb(255, 255, 255);
@@ -29,7 +30,7 @@ body{
 	color: green;
 }
 #navbar{
-	background-color: #e4e6ac;
+	background-color: blue;
 }
 #bar{
 	display: inline-block;
