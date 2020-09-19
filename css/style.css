@@ -5,6 +5,7 @@ body{
 	font-size:16px;
 	line-height: 1.6em;
 	margin:0;
+    background-color:grey;
 }
 .container{
 	width:80%;
@@ -30,7 +31,7 @@ body{
 	color: green;
 }
 #navbar{
-	background-color: blue;
+	background-color: lightgrey;
 }
 #bar{
 	display: inline-block;
@@ -49,10 +50,10 @@ body{
 #navbar a{
 	text-decoration: none;
 	margin-right:25px;
-	color: green;
+	color: white;
 }
 #navbar a:hover{
-	color:black;
+	color:orange;
 }
 #search{
 	border-radius: 8px;
