@@ -71,7 +71,7 @@ body {
 }
 
 #showcase {
-    height: 387px;
+    height: 483px;
     position:relative;
     background-repeat: no-repeat;
     background-position: center;
@@ -146,12 +146,15 @@ body {
 #sidebar {
     
 }
-#main-footer{
-	background: black;
-	color:white;
-	text-align: center;
-    width:70%;
-    margin:auto;
+#main-footer {
+    background: rgb(81, 81, 81);
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top:10px;
+    border:ridge thin;
+    border-color:orange;
 }
 #main-footer a{
     color:orange;
