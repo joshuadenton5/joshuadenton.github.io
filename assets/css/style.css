@@ -59,7 +59,7 @@ section {
 NAVBAR STYLES
 ==============================*/
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
-    color: #FFF;
+    color: blue;
     font-size: 20px;
     text-transform: uppercase;
 }
