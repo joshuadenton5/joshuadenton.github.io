@@ -59,7 +59,7 @@ section {
 NAVBAR STYLES
 ==============================*/
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
-    color: blue;
+    color: #FFF;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -93,7 +93,7 @@ padding:0px;
     }
 
 .navbar-default {
-    background-color: #FF2276;
+    background-color: blue;
     border-color: transparent;
 }
 /* ADDED PADDING IN NAVBAR */
