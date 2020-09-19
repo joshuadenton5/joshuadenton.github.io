@@ -71,7 +71,7 @@ body {
 }
 
 #showcase {
-    height: 483px;
+    /*height: 483px;*/
     position:relative;
     background-repeat: no-repeat;
     background-position: center;
@@ -80,26 +80,33 @@ body {
     margin: 5px;
     border: ridge;
     border-width: thin;
+    border-color:orange;
     float: right;
     width: 40%;
 }
 
-    #showcase img {
-    height: inherit;
-    width: 100%;
+#showcase:after{
+    content:"";
+    display:block;
+    padding-bottom:100%;
+}
+
+#showcase img {
     position: absolute;
+    height:100%;
+    width: 100%;
     left: 0;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
-    }
+}
 
 #showcase img.top{
     animation-name: sc1fade;
     animation-timing-function:ease-in-out;
     animation-iteration-count:infinite;
-    animation-duration: 24s;
+    animation-duration: 12s;
     animation-direction:alternate;
 }
 @keyframes sc1fade{
