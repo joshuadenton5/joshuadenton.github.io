@@ -1,6 +1,4 @@
 body {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1.6em;
@@ -13,9 +11,13 @@ body {
 	overflow: hidden;
     background-color: rgb(55, 53, 53);
 }
-.mainCon{
-    width:90%;
-    margin:auto;
+.mainCon {
+    width: 90%;
+    margin: auto;
+    background-color: rgb(81, 81, 81);   
+    border: ridge, thin;
+    border-color: orange;
+    overflow: hidden;
 }
 #main-header
 {
@@ -46,7 +48,7 @@ body {
 	background-color: rgb(81, 81, 81);
     border:ridge;
     border-color: orange;
-    border-width: 1px;
+    border-width: thin;
 }
 #bar{
 	display: inline-block;
@@ -68,16 +70,66 @@ body {
 	color:orange;
 }
 
-#showcase{
-    background-image: url(../images/BartonSunset.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	margin:5px;
-	text-align: center;
+#showcase {
+    height: 387px;
+    position:relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 5px;
     border: ridge;
     border-width: thin;
     float: right;
     width: 40%;
+}
+
+    #showcase img {
+    height: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    }
+
+#showcase img.top{
+    animation-name: sc1fade;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+    animation-duration: 24s;
+    animation-direction:alternate;
+}
+@keyframes sc1fade{
+    0%{
+        opacity:1;
+    }
+    17%{
+        opacity:1;
+    }
+    25% {
+        opacity: 0;
+    }
+    92%{
+        opacity:0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/#showcase img:nth-of-type(1){
+    animation-delay: 6s;
+}
+#showcase img:nth-of-type(2) {
+    animation-delay: 4s;
+}
+#showcase img:nth-of-type(3) {
+    animation-delay: 2s;
+}
+#showcase img:nth-of-type(4) {
+    animation-delay: 0;
 }
 #showcase h1{
 	color: #fff;
@@ -103,11 +155,10 @@ body {
 }
 #main-footer a{
     color:orange;
-    
 }
 
-@media(max-width:1200px){
-	#main{
+@media(max-width:1000px){
+	#main, #showcase{
 		width:100%;
 		float:none;
 	}
