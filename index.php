@@ -15,7 +15,8 @@
                 </a>
             </div>
             <h1>Josh Denton's Portfolio</h1>
-            <p><i>Game Development Graduate</i></p>
+            <p><i>Game Development Graduate <?php echo 'hello world'; ?> </i></p>
+            <? php echo 'hello world'; ?>
         </div>
     </header>
 
