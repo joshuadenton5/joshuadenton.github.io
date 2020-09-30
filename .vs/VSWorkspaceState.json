@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css",
-    "\\images",
-    "\\New"
+    "\\Headers",
+    "\\js",
+    "\\PersonalProjects"
   ],
-  "SelectedNode": "\\New",
+  "SelectedNode": "\\js\\test.js",
   "PreviewInSolutionExplorer": false
 }
