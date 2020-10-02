@@ -86,10 +86,10 @@ body {
     width: 40%;
 }
 
-#showcase:after{
+#showcase:after {
     content:"";
-    display:block;
-    padding-bottom:100%;
+    display: block;
+    padding-bottom: 100%;
 }
 
 #showcase img {
