@@ -102,7 +102,8 @@ body {
 -o-transition: opacity 2s ease-in-out;
 transition: opacity 2s ease-in-out;*/
 }
-/* Potential smooth animation of images*/
+
+/* Potential smooth animation of images
 #showcase img.top{
     animation-name: sc1fade;
     animation-timing-function:ease-in-out;
@@ -122,7 +123,7 @@ transition: opacity 2s ease-in-out;*/
     }
     92%{
         opacity:0;
-    }*/
+    }
     100% {
         opacity: 1;
     }
@@ -139,6 +140,7 @@ transition: opacity 2s ease-in-out;*/
 #showcase img:nth-of-type(4) {
     animation-delay: 0;
 }
+*/
 #showcase h1{
 	color: #fff;
 	font-size: 50px;

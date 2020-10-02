@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\js"
   ],
-  "SelectedNode": "\\js",
+  "SelectedNode": "\\js\\imageTransition.js",
   "PreviewInSolutionExplorer": false
 }
