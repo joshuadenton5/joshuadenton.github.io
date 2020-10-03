@@ -16,4 +16,4 @@ function changeStyle(element) {
     element.style.color = "orange";
     element.style.fontWeight = "bold";
 }
-addLoadEvent(checkPage);
+addLoadEvent(checkPage) + new Date();
