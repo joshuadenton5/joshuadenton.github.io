@@ -216,15 +216,16 @@ transition: opacity 2s ease-in-out;*/
     color:white;
 }
 #main-projects{
-    margin-right: 5px;
+    margin-right: 10px;
     float:right;
     width:65%;
     box-sizing:border-box;
     color:white;
-    margin-bottom:20px;
+    margin-bottom:50px;
 }
 #project-title{
     margin-right:5px;
+
 }
 
 #project-title a{
@@ -283,9 +284,10 @@ transition: opacity 2s ease-in-out;*/
     #logo, .tag{
         position:center;
     }
-	 #navbar ul,#navbar li, #navbar a{
-		width: 100%;
-	}
+    #navbar ul, #navbar li, #navbar a {
+        width: 100%;
+        position: center;
+    }
     #project-title{
         margin-left:10px;
     }
