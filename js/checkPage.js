@@ -7,6 +7,10 @@ function checkPage() {
         var element = document.getElementById("CV");
         changeStyle(element);
     }
+    else if (document.URL.includes("Contact")) {
+        var element = document.getElementById("Contact");
+        changeStyle(element);
+    }
     else {
         var element = document.getElementById("Home");
         changeStyle(element);
