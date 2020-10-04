@@ -215,6 +215,9 @@ transition: opacity 2s ease-in-out;*/
 	box-sizing:border-box;
     color:white;
 }
+#main a{
+    color:orange;
+}
 #main-projects{
     margin-right: 10px;
     float:right;
@@ -225,7 +228,6 @@ transition: opacity 2s ease-in-out;*/
 }
 #project-title{
     margin-right:5px;
-
 }
 
 #project-title a{
