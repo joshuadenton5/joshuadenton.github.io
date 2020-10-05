@@ -131,6 +131,30 @@ body {
     float: left;
     width: 30%;
 }
+
+.arrow{
+    cursor:pointer;
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+    width:0;
+    height:0;
+    border-style:solid;
+}
+
+#arrow-left{
+    border-width: 7px 14px 7px 0;
+    border-color:transparent #fff transparent transparent;
+    left:0;
+    margin-left:10px;
+}
+#arrow-right {
+    border-width: 7px 14px 7px 0;
+    border-color: transparent transparent transparent #fff;
+    right: 0;
+    margin-right: 10px;
+}
+
 #showcase-projects img {
     position: absolute;
     background-position: center;
