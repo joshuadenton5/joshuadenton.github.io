@@ -308,9 +308,12 @@ transition: opacity 2s ease-in-out;*/
 	}
     #main-header aside, #main, #main-projects, .main-con
 	{
-		width: 100%;
+		width: 95%;
 		position: center center;
 	}
+    #showcase-projects{
+        margin-left:20px;
+    }
     #logo, .tag{
         position:center;
     }
