@@ -297,6 +297,7 @@ transition: opacity 2s ease-in-out;*/
     color:yellow;
 }
 
+@-ms-viewport{width:device-width;}
 @media(max-width:1000px){
 	#main, #showcase, .tag{
 		width:100%;
