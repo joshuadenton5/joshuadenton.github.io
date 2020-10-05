@@ -299,8 +299,8 @@ transition: opacity 2s ease-in-out;*/
 
 @-ms-viewport{width:device-width;}
 @media(max-width:1000px){
-    .container{
-        width:80%;
+    .container, #main-footer{
+        width:95%;
     }
 	#main, #showcase, .tag{
 		width:100%;
