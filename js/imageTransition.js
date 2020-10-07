@@ -17,4 +17,6 @@ function changeImg() {
 		i = 0;;
 	setTimeout("changeImg()", time);
 }
-addLoadEvent(changeImg);
+changeImg();
+//window.addEventListener("load", changeImg);
+//addLoadEvent(changeImg);
