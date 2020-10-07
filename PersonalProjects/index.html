@@ -8,53 +8,12 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('#header').load("/headers/header.html");
+            $('#mainBody').load("/bodies/projects.html");
         });
     </script>
-    <script type="text/javascript" src="/js/load.js"></script>
-    <script type="text/javascript" src="/js/checkPage.js"></script>
 </head>
 <body>
     <div id="header"></div>
-    <div class="container">
-        <div class="mainCon">
-                <section id="main-projects">
-                    <p id="project-title">
-                        <strong><i><a href="https://jd-saints1.itch.io/cooking-with-polygons">Cooking With Polygons</a></i> - Casual Cooking Sim - Published Online</strong> <br /><br />
-                        In <i>Cooking With Polygons</i>,
-                        you are in charge of preparing meals in a busy restaurant kitchen, although you are the only chef.
-                        Earn money by creating top quality meals for the ever picky customers. Expect your work to be scrutinised and
-                        get rewarded handsomely for your endeavors.
-                        After earning enough money, you can upgrade your status by learning new recipes to add to your restaurant's menu. <br /><br />
-                        Initially a university project, I decided to keeping updating this game. I am the sole developer, responsible for
-                        developing most of the assets (including the models - basic I know). This is certainly the project I have put
-                        the most time and energy into.
-                        <br /><br />
-                        <a href="https://github.com/joshuadenton5/Cooking-with-Polygons-Old">GitHub Repository (Code only)</a>
-                    </p>
-                </section>
-                <section id="showcase-projects">
-                    <div id="arrow-left" class="arrow"></div>
-                    <div id="arrow-right" class="arrow"></div>
-                    <img src="/images/CWP/cookingWithPolysLogo.jpg" />
-                </section>
-                <section id="main-projects">
-                    <p id="project-title">
-                        <strong><i><a href="https://github.com/joshuadenton5/BallDrop">Ball-Drop</a></i> - Hyper-Casual Mobile Game</strong><br /><br />
-                        <i>Ball-Drop</i> is a fast paced ball rolling maze game where your objective is to solve an endless run of procedurally generated mazes against the clock.
-                        Points are accumulated by completing mazes and collecting drops. The main input comes from accessing the devices accelerometer allowing the ball to roll when the device is tilted.
-                        Where an accelerometer is not available, input is recorded via keyboard. 
-                    </p>
-                </section>
-                <section id="showcase-projects">
-                    <img src="/images/bd_2.jpg" />
-                </section>
-            <aside id="sidebar">
-                <p> </p>
-            </aside>
-        </div>
-    </div>
-    <footer id="main-footer">
-        <p>Copyright &copy; 2020 <a href="https://joshuadenton5.github.io/">Josh Denton</a> All rights reserved</p>
-    </footer>
+    <div id="mainBody"></div>   
 </body>
 </html>
