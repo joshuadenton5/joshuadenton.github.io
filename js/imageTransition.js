@@ -9,7 +9,8 @@ images[3] = '/images/ani_1.jpg';
 images[4] = '/images/tf_2.jpg';
 
 function changeImg() {
-    document.slide.src = images[i];
+    var sl = document.getElementById("slide");
+    sl.src = images[i];
 	if (i < images.length - 1) {
 		i++;
 	} else
