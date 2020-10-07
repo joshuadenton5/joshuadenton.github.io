@@ -17,7 +17,8 @@ function checkPage() {
     }
 }
 function changeStyle(element) {
+    var str = element.str;
     element.style.color = "orange";
-    element.style.fontWeight = "bold";
+    element.style.fontStyle = "italic";
 }
 checkPage();
