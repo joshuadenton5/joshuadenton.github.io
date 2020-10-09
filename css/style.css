@@ -149,7 +149,7 @@ body {
     margin-left:10px;
 }
 #arrow-right {
-    border-width: 7px 14px 7px 0;
+    border-width: 7px 0 7px 14px;
     border-color: transparent transparent transparent #fff;
     right: 0;
     margin-right: 10px;
