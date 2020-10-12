@@ -101,6 +101,39 @@ body {
 	color:orange;
 }
 
+#project-all {
+    overflow: hidden;
+    margin:auto;
+    width:95%;
+}
+
+#project-all h2 {
+    text-align: center;
+    margin-bottom: 10px;   
+}
+
+#project-all a {
+    color: orange;
+}
+
+
+#main-projects {
+    margin-right: 10px;
+    float: right;
+    width: 65%;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+#project-title {
+    margin-right: 5px;
+}
+
+#project-title a {
+    
+}
 #showcase-home {
     /*height: 483px;*/
     position: relative;
@@ -242,22 +275,7 @@ transition: opacity 2s ease-in-out;*/
 #main a{
     color:orange;
 }
-#main-projects{
-    margin-right: 10px;
-    float:right;
-    width:65%;
-    box-sizing:border-box;
-    color:white;
-    margin-bottom:50px;
-}
-#project-title{
-    margin-right:5px;
-}
 
-#project-title a{
-    color:orange;
-    font-size: larger;
-}
 #sidebar {
     
 }
