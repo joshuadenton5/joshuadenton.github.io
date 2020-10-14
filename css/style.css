@@ -110,6 +110,7 @@ body {
 #project-all h2 {
     text-align: center;
     margin-bottom: 10px;   
+    margin-top:10px;
 }
 
 #project-all a {
@@ -119,13 +120,11 @@ body {
 
 #main-projects {
     margin-right: 10px;
-    float: right;
-    width: 65%;
+    width: 92%;
     box-sizing: border-box;
     color: white;
-    margin-bottom: 50px;
+    margin:auto;
 }
-
 
 #project-title {
     margin-right: 5px;
@@ -156,13 +155,24 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    margin: 5px;
+    margin: auto;
     border: ridge;
     border-radius: 10px;
     border-width: thin;
     border-color: white;
-    float: left;
-    width: 30%;
+    /*width: 30%;*/
+    width:694px;
+    height:386px;
+}
+
+#showcase-projects img {
+    position: absolute;
+    background-position: center;
+    height: 386px;
+    width: auto;
+    border-radius: 10px;
+    max-width: 694px;
+    max-height: 386px;
 }
 
 .arrow{
@@ -176,25 +186,16 @@ body {
 }
 
 #arrow-left{
-    border-width: 7px 14px 7px 0;
+    border-width: 5px 11px 5px 0;
     border-color:transparent #fff transparent transparent;
     left:0;
     margin-left:10px;
 }
 #arrow-right {
-    border-width: 7px 0 7px 14px;
+    border-width: 5px 0 5px 11px;
     border-color: transparent transparent transparent #fff;
     right: 0;
     margin-right: 10px;
-}
-
-#showcase-projects img {
-    position: absolute;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    border-radius: 10px;
 }
 
 #showcase-projects:after {
