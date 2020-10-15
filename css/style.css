@@ -105,6 +105,7 @@ body {
     overflow: hidden;
     margin:auto;
     width:95%;
+    margin-bottom:30px;
 }
 
 #project-all h2 {
@@ -120,7 +121,7 @@ body {
 
 #main-projects {
     margin-right: 10px;
-    width: 92%;
+    width: 90%;
     box-sizing: border-box;
     color: white;
     margin:auto;
@@ -130,9 +131,6 @@ body {
     margin-right: 5px;
 }
 
-#project-title a {
-    
-}
 #showcase-home {
     /*height: 483px;*/
     position: relative;
@@ -160,19 +158,30 @@ body {
     border-radius: 10px;
     border-width: thin;
     border-color: white;
-    /*width: 30%;*/
-    width:694px;
-    height:386px;
+    width: 80%;
+    height:auto;
 }
 
 #showcase-projects img {
-    position: absolute;
     background-position: center;
-    height: 386px;
-    width: auto;
     border-radius: 10px;
-    max-width: 694px;
-    max-height: 386px;
+    max-height:100%;
+    max-width:100%;
+    object-fit:contain;
+    height: auto;
+    width: auto;
+}
+
+#showcase-home img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    border-radius: 10px;
+    /*-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 2s ease-in-out;
+-o-transition: opacity 2s ease-in-out;
+transition: opacity 2s ease-in-out;*/
 }
 
 .arrow{
@@ -199,27 +208,15 @@ body {
 }
 
 #showcase-projects:after {
-    content: "";
+    /*content: "";
     display: block;
-    padding-bottom: 100%;
+    padding-bottom: 100%;*/
 }
 
 #showcase-home:after {
     content:"";
     display: block;
     padding-bottom: 100%;
-}
-
-#showcase-home img {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    border-radius: 10px;
-    /*-webkit-transition: opacity 1s ease-in-out;
--moz-transition: opacity 2s ease-in-out;
--o-transition: opacity 2s ease-in-out;
-transition: opacity 2s ease-in-out;*/
 }
 
 /* Potential smooth animation of images
