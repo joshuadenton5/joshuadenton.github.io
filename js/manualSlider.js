@@ -1,6 +1,8 @@
+
 let sliderImages = document.querySelectorAll('.slide');
 var current = 0;
 let arrowLeft = document.querySelector('#arrow-left'), arrowRight = document.querySelector('#arrow-right');
+
 function reset() {
     for (let i = 0; i < sliderImages.length; i++) {
         sliderImages[i].style.display = 'none';
