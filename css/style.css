@@ -122,7 +122,7 @@ body {
 
 #main-projects {
     margin-right: 10px;
-    width: 90%;
+    width: 95%;
     box-sizing: border-box;
     color: white;
     margin:auto;
@@ -194,7 +194,9 @@ transition: opacity 2s ease-in-out;*/
     height:0;
     border-style:solid;
 }
-
+.arrow:hover{
+    color:orange;
+}
 #arrow-left{
     border-width: 7px 13px 7px 0;
     border-color:transparent #fff transparent transparent;
@@ -315,7 +317,7 @@ transition: opacity 2s ease-in-out;*/
 }
 
 @-ms-viewport{width:device-width;}
-@media(max-width:1000px){
+@media(max-width:1200px){
     .container, #main-footer{
         width:95%;
     }
