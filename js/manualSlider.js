@@ -36,4 +36,5 @@ arrowRight.addEventListener('click', function () {
     }
     slideRight();
 });
+
 startSlide();
