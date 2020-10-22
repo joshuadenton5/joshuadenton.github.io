@@ -4,7 +4,7 @@ var time = 3000;
 
 images[0] = '/images/tf_1.jpg';
 images[1] = '/images/track.jpg';
-images[2] = '/images/BallDrop/bd_2.jpg';
+images[2] = '/images/CWP/cookingWithPolysLogo.jpg';
 images[3] = '/images/ani_1.jpg';
 images[4] = '/images/tf_2.jpg';
 

@@ -14,7 +14,6 @@ function GetSliders() {
 
 function reset(sliderImages) {
 
-    //var parents = document.getElementsByClassName('slider-container');
     for (var i = 0; i < sliderImages.length; i++) {
         sliderImages[i].style.display = 'none';
     }
@@ -31,8 +30,6 @@ function slideRight(sliderImages, i) {
     current[i]++;
 }
 
-
-
 for (var i = 0; i < arrowsRight.length; i++)
 {
     (function (index) {
@@ -46,7 +43,6 @@ for (var i = 0; i < arrowsRight.length; i++)
         });
     })(i)
 }
-
 
 for (var i = 0; i < arrowsLeft.length; i++)
 {
