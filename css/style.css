@@ -163,11 +163,14 @@ body {
     height:auto;
 }
 #code {
-    background-color: black;
+    background-color: rgb(16, 16, 16);
     color: orange;
     line-height: normal;
-    width:80%;
-    margin:auto;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    border:ridge;
+    border-width:thin;
 }
 
 #showcase-projects img {
