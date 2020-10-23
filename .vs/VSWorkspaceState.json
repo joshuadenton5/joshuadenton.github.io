@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bodies",
+    "\\images\\BallDrop"
   ],
-  "SelectedNode": "\\css",
+  "SelectedNode": "\\bodies\\home.html",
   "PreviewInSolutionExplorer": false
 }

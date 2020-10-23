@@ -112,13 +112,13 @@ body {
     text-align: center;
     margin-bottom: 10px;   
     margin-top:10px;
-    line-
+    letter-spacing:2px;
+    line-height:28px;
 }
 
 #project-all a {
     color: orange;
 }
-
 
 #main-projects {
     margin-right: 10px;
@@ -161,6 +161,13 @@ body {
     border-color: white;
     width: 80%;
     height:auto;
+}
+#code {
+    background-color: black;
+    color: orange;
+    line-height: normal;
+    width:80%;
+    margin:auto;
 }
 
 #showcase-projects img {

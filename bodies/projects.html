@@ -36,8 +36,32 @@
                     scrapped. I decided to design an interface, of which all interactable objects in the game implemented. This made the code far easier
                     to follow as well as creating more freedom when dictating the behaviour of specific objects.
                     <br /><br />
+                    <div id="code">
+                        <code>
+                            public Interface IInteract() //declaring the interface<br />
+                            { <br />
+                            &nbsp;&nbsp;&nbsp; OnLeftMouseButton(); <br />
+                            }
+                        </code>
+                    </div><br />
+                    <div id="code">
+                        <code>
+                            public class MyClass : IIntercat<br />
+                            {<br />
+                            &nbsp;&nbsp;&nbsp;public void OnLeftMouseButton() //implement different logic for each class<br />
+                            &nbsp;&nbsp;&nbsp;{<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//code logic here <br />
+                            &nbsp;&nbsp;&nbsp;}<br />
+                            }
+                        </code>
+                    </div>
+
+                    <br /><br />
                     I currently have a project in the works (very early) that is looking to further improve upon the interact system. At the moment,
                     both an inheritance and interface are implemented.
+                    <br /><br />
+                    I still feel that this game can be further improved upon and would it would be great to get some further feedback from playtesting to resolve
+                    some balancing issues that have been reported.
                     <br /><br />
                     <a href="https://github.com/joshuadenton5/Cooking-with-Polygons-Old">GitHub Repository (Code only)</a>
                 </p>
