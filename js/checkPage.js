@@ -1,4 +1,5 @@
 function checkPage() {
+
     if (document.URL.includes("PersonalProjects")) {
         var element = document.getElementById("Personal Projects");
         changeStyle(element);

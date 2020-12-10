@@ -347,7 +347,6 @@ transition: opacity 2s ease-in-out;*/
         position:center;
     }
     #navbar ul, #navbar li, #navbar a {
-        width: 100%;
         position: center;
     }
     #project-title{
