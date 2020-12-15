@@ -11,6 +11,11 @@ body {
     overflow: hidden;
     background-color: rgb(16, 16, 16);
 }
+.linksContainer{
+    overflow:hidden;
+    width:80%;
+    font-size:18px;
+}
 .mainCon {
     width: 90%;
     margin: auto;
@@ -21,10 +26,6 @@ body {
     border-color: orange;
     overflow: hidden;
     color:white;
-}
-#main-header
-{
-
 }
 #logo {
     padding: 5px;
@@ -59,6 +60,43 @@ body {
 .tag i{
     position:center;
 }
+#mobileLines {
+    display:none;
+    float: right;
+    color: white;
+    margin-top:40px;
+    position: relative;
+    border: ridge;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: orange;
+    background-color: rgb(81, 81, 81);
+}
+#mobileLines:hover{
+    color:orange;
+    cursor:pointer;
+}
+#linksMenu {
+    display: none;
+    background-color: rgb(81, 81, 81);
+    color: white;
+    float: right;
+    border: ridge;
+    border-width: 1px;
+    border-color: orange;
+    border-radius: 10px;
+}
+#linksMenu ul{
+    list-style:none;
+    padding:0 10px 0 10px;
+}
+#linksMenu a {
+    color: white;
+    text-decoration: none;
+}
+#linksMenu a:hover{
+    color:orange;
+}
 #main-header h1{
 	width: 60%;
 	box-sizing:border-box;
@@ -81,6 +119,7 @@ body {
     border-width: thin;
     margin-bottom: 10px;
 }
+
 #bar{
 	display: inline-block;
 	vertical-align: middle;
@@ -189,10 +228,6 @@ body {
     width: 100%;
     left: 0;
     border-radius: 10px;
-    /*-webkit-transition: opacity 1s ease-in-out;
--moz-transition: opacity 2s ease-in-out;
--o-transition: opacity 2s ease-in-out;
-transition: opacity 2s ease-in-out;*/
 }
 
 .arrow{
@@ -232,44 +267,6 @@ transition: opacity 2s ease-in-out;*/
     padding-bottom: 100%;
 }
 
-/* Potential smooth animation of images
-#showcase img.top{
-    animation-name: sc1fade;
-    animation-timing-function:ease-in-out;
-    animation-iteration-count:infinite;
-    animation-duration: 4s;
-    animation-direction:alternate;
-}
-@keyframes sc1fade{
-    0%{
-        opacity:0;
-    }
-    /*17%{
-        opacity:1;
-    }
-    25% {
-        opacity: 0;
-    }
-    92%{
-        opacity:0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-#showcase img:nth-of-type(1){
-    animation-delay: 12s;
-}
-#showcase img:nth-of-type(2) {
-    animation-delay: 8s;
-}
-#showcase img:nth-of-type(3) {
-    animation-delay: 4s;
-}
-#showcase img:nth-of-type(4) {
-    animation-delay: 0;
-}
-*/
 #showcase h1{
 	color: #fff;
 	font-size: 50px;
@@ -327,6 +324,14 @@ transition: opacity 2s ease-in-out;*/
 }
 
 @-ms-viewport{width:device-width;}
+@media(max-width: 500px){
+    #navbar {
+        display:none;
+    }
+    #mobileLines{
+        display:block;
+    }
+}
 @media(max-width:1200px){
     .container, #main-footer{
         width:95%;
@@ -346,6 +351,7 @@ transition: opacity 2s ease-in-out;*/
     #logo, .tag{
         position:center;
     }
+
     #navbar ul, #navbar li, #navbar a {
         position: center;
     }
