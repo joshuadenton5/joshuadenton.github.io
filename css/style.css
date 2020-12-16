@@ -13,11 +13,11 @@ body {
 }
 .linksContainer {
     overflow: hidden;
-    font-size: 18px;
-    position: center;
-    width: 80%;
+    font-size: 25px;
+    width: 50%;
     margin: auto;
     margin-bottom: 10px;
+    line-height:30px;
 }
 .mainCon {
     width: 90%;
@@ -63,19 +63,22 @@ body {
 .tag i{
     position:center;
 }
-#mobileLines {
+.icon {
     display:none;
     float: right;
     color: white;
-    margin-top:40px;
-    position: relative;
+    margin-top:35px;
     border: ridge;
     border-width: 1px;
     border-radius: 10px;
     border-color: orange;
     background-color: rgb(81, 81, 81);
+    right:0;
+    top:0;
+    padding:14px 16px;
+    font-size:30px;
 }
-#mobileLines:hover{
+.icon:hover{
     color:orange;
     cursor:pointer;
 }
@@ -336,7 +339,7 @@ body {
     #navbar {
         display: none;
     }
-    #mobileLines {
+    .icon {
         display: block;
     }
 	#main, #showcase, .tag{
