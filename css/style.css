@@ -12,7 +12,7 @@ body {
     background-color: rgb(31, 31, 31)
 }
 .border-format {
-    border: ridge;
+    border: thin;
     border-radius: 10px;
     border-width: medium;
     border-color: orange;
@@ -26,7 +26,7 @@ body {
     margin: auto;
     margin-bottom: 10px;
     line-height: 30px;
-    border: ridge;
+    border: thin;
     border-radius: 10px;
     border-width: medium;
     border-color: orange;
@@ -35,7 +35,7 @@ body {
     width: 90%;
     margin: auto;
     background-color: rgb(16, 16, 16);
-    border: ridge;
+    border: thin;
     border-radius: 10px;
     border-width: medium;
     border-color: orange;
@@ -51,6 +51,7 @@ body {
 #logo img{
     height:100px;
     width:100px;
+    border-radius:50%;
 }
 .tag {
     white-space: nowrap;
@@ -148,9 +149,7 @@ body {
 
 #project-all h2 {
     text-align: center;
-    margin-bottom: 10px;   
     margin-top:10px;
-    letter-spacing:2px;
     line-height:28px;
 }
 
@@ -178,7 +177,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 5px;
-    border: ridge;
+    border: thin;
     border-radius: 10px;
     border-width: thin;
     border-color: white;
@@ -193,7 +192,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: auto;
-    border: ridge;
+    border: thin;
     border-radius: 10px;
     border-width: thin;
     border-color: white;
@@ -201,14 +200,11 @@ body {
     height:auto;
 }
 #code {
-    background-color: rgb(16, 16, 16);
+    background-color: rgb(31, 31, 31);
     color: orange;
     line-height: normal;
     width: 80%;
     margin: auto;
-    border-radius: 10px;
-    border:ridge;
-    border-width:thin;
 }
 
 #showcase-projects img {
