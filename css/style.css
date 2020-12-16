@@ -11,6 +11,12 @@ body {
     overflow: hidden;
     background-color: rgb(31, 31, 31)
 }
+.border-format {
+    border: ridge;
+    border-radius: 10px;
+    border-width: medium;
+    border-color: orange;
+}
 .linksContainer {
     display:none;
     background-color: rgb(16, 16, 16);
@@ -31,7 +37,7 @@ body {
     background-color: rgb(16, 16, 16);
     border: ridge;
     border-radius: 10px;
-    border-width: thin;
+    border-width: medium;
     border-color: orange;
     overflow: hidden;
     color: white;
@@ -45,10 +51,6 @@ body {
 #logo img{
     height:100px;
     width:100px;
-    border:ridge;
-    border-width:1px;
-    border-color:orange;
-    border-radius:50%;
 }
 .tag {
     white-space: nowrap;
@@ -114,10 +116,6 @@ body {
 }
 #navbar {
     background-color: rgb(16, 16, 16);
-    border: ridge;
-    border-radius: 10px;
-    border-color: orange;
-    border-width: thin;
     margin-bottom: 10px;
 }
 
@@ -295,9 +293,6 @@ body {
     width: 60%;
     margin: auto;
     margin-top: 10px;
-    border: ridge thin;
-    border-radius: 10px;
-    border-color: orange;
 }
 #main-footer a{
     color:orange;
