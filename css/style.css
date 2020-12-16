@@ -3,32 +3,38 @@ body {
     font-size: 14px;
     line-height: 1.5em;
     margin: 0;
-    background-color: rgb(16, 16, 16);
+    background-color: rgb(31, 31, 31)
 }
 .container {
     width: 60%;
     margin: auto;
     overflow: hidden;
-    background-color: rgb(16, 16, 16);
+    background-color: rgb(31, 31, 31)
 }
 .linksContainer {
+    display:none;
+    background-color: rgb(16, 16, 16);
     overflow: hidden;
     font-size: 25px;
     width: 50%;
     margin: auto;
     margin-bottom: 10px;
-    line-height:30px;
+    line-height: 30px;
+    border: ridge;
+    border-radius: 10px;
+    border-width: medium;
+    border-color: orange;
 }
 .mainCon {
     width: 90%;
     margin: auto;
-    background-color: rgb(81, 81, 81);   
+    background-color: rgb(16, 16, 16);
     border: ridge;
     border-radius: 10px;
-    border-width:thin;
+    border-width: thin;
     border-color: orange;
     overflow: hidden;
-    color:white;
+    color: white;
 }
 #logo {
     padding: 5px;
@@ -67,12 +73,7 @@ body {
     display:none;
     float: right;
     color: white;
-    margin-top:35px;
-    border: ridge;
-    border-width: 1px;
-    border-radius: 10px;
-    border-color: orange;
-    background-color: rgb(81, 81, 81);
+    margin-top:30px;
     right:0;
     top:0;
     padding:14px 16px;
@@ -84,12 +85,7 @@ body {
 }
 #linksMenu {
     display: none;
-    background-color: rgb(81, 81, 81);
     color: white;
-    border: ridge;
-    border-width: 1px;
-    border-color: orange;
-    border-radius: 10px;
 }
 #linksMenu ul{
     list-style:none;
@@ -117,7 +113,7 @@ body {
     margin-top: 0px;
 }
 #navbar {
-    background-color: rgb(81, 81, 81);
+    background-color: rgb(16, 16, 16);
     border: ridge;
     border-radius: 10px;
     border-color: orange;
@@ -293,7 +289,7 @@ body {
     
 }
 #main-footer {
-    background: rgb(81, 81, 81);
+    background: rgb(16, 16, 16);
     color: white;
     text-align: center;
     width: 60%;
