@@ -313,6 +313,10 @@ body {
     text-align:center;
 }
 
+#completed{
+    text-decoration:line-through;
+}
+
 #test {
     margin: auto;
     box-sizing: border-box;
