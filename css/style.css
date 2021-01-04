@@ -280,6 +280,9 @@ body {
 	box-sizing:border-box;
     color:white;
 }
+#main h1{
+    text-align:center;
+}
 #main a{
     color:orange;
 }
