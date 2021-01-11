@@ -243,13 +243,13 @@ body {
     color:orange;
 }
 #arrow-left{
-    border-width: 7px 13px 7px 0;
+    border-width: 12px 21px 12px 0;
     border-color:transparent #fff transparent transparent;
     left:0;
     margin-left:10px;
 }
 #arrow-right {
-    border-width: 7px 0 7px 13px;
+    border-width: 12px 0 12px 21px;
     border-color: transparent transparent transparent #fff;
     right: 0;
     margin-right: 10px;
